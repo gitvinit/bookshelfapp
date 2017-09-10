@@ -31,7 +31,7 @@ public class BookShelfController {
 
     @RequestMapping(value = "/book", method = RequestMethod.POST)
     public void saveBook(@RequestBody Book book){
-        bookShelfService.saveProduct(book);
+        bookShelfService.saveBook(book);
     }
 
 }

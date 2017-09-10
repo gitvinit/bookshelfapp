@@ -28,7 +28,7 @@ public class BookShelfServiceImpl implements BookShelfService {
     }
 
     @Override
-    public void saveProduct(Book book) {
+    public void saveBook(Book book) {
         bookShelfRepository.save(book);
     }
 }

@@ -23,5 +23,5 @@ public interface BookShelfService {
      * Saves book in shelf.
      * @param book
      */
-    void saveProduct(Book book);
+    void saveBook(Book book);
 }
